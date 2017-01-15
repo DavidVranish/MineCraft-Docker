@@ -1,0 +1,8 @@
+version: '2'
+services:
+    image: dvranish/minecraft
+    restart: always
+    ports:
+      - 25565/tcp:25565/tcp
+    volumes:
+      - ./:/minecraft
