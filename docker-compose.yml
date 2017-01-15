@@ -1,5 +1,6 @@
 version: '2'
 services:
+  minecraft:
     image: dvranish/minecraft
     restart: always
     ports:
