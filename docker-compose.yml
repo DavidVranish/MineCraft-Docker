@@ -3,6 +3,8 @@ services:
   minecraft:
     image: dvranish/minecraft
     restart: always
+    environment:
+      - EULA=TRUE
     ports:
       - 25565/tcp:25565/tcp
     volumes:
