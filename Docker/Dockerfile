@@ -3,10 +3,10 @@ FROM openjdk:8-jre
 RUN apt-get update
 RUN apt-get install -y apt-utils
 
-RUN mkdir -p /minecraft
+RUN mkdir -p /Minecraft
 
-VOLUME /minecraft
+VOLUME /Minecraft
 
 EXPOSE 25565/tcp
 
-CMD /minecraft/start-server
+CMD /Minecraft/start-server
